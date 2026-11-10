@@ -61,6 +61,7 @@ public class playerController : MonoBehaviour
 
         if (playerHealth <= 0.0f)
             Application.Quit();
+            
 
         Debug.Log(playerHealth);
             
