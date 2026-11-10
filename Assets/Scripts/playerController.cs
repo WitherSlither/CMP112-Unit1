@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController))]
 public class playerController : MonoBehaviour
 {
+    [SerializeField] private float playerHealth = 100.0f;
     [SerializeField] private float WalkSpeed = 5.5f;
     [SerializeField] private float RunningSpeed = 9.0f;
 
@@ -57,6 +58,12 @@ public class playerController : MonoBehaviour
         currentMoveSpeed = runInput.IsPressed() ? RunningSpeed : WalkSpeed;
         HandleMovement(moveVector);
         HandleLooking(mouseDelta);
+
+        if (playerHealth <= 0.0f)
+            Application.Quit();
+
+        Debug.Log(playerHealth);
+            
     }
 
     private void HandleMovement(Vector2 moveVector)
@@ -93,5 +100,10 @@ public class playerController : MonoBehaviour
 
         mainCamera.transform.localRotation = Quaternion.Euler(lookAngle, 0, 0);
         transform.rotation *= Quaternion.Euler(0, mouseDelta.x * LookSens, 0);
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        playerHealth -= 1.0f;
     }
 }
