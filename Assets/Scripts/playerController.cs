@@ -62,9 +62,6 @@ public class playerController : MonoBehaviour
         if (playerHealth <= 0.0f)
             Application.Quit();
             
-
-        Debug.Log(playerHealth);
-            
     }
 
     private void HandleMovement(Vector2 moveVector)
