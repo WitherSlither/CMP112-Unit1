@@ -17,7 +17,7 @@ public class BoundsTest : MonoBehaviour
     {
         col = GetComponent<Collider>();
         Bounds b = col.bounds;
-        point = new Vector3(Random.Range(b.min.x, b.max.x), transform.position.y, Random.Range(b.min.z, b.max.z));
+        point = new Vector3(Random.Range(b.min.x, b.max.x), transform.position.y + 10f, Random.Range(b.min.z, b.max.z));
         Debug.Log(point);
     }
 
