@@ -1,7 +1,9 @@
 // taken from Shark games first person movement in unity youtube guide
 
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class playerController : MonoBehaviour
@@ -60,7 +62,7 @@ public class playerController : MonoBehaviour
         HandleLooking(mouseDelta);
 
         if (playerHealth <= 0.0f)
-            Application.Quit();
+            SceneManager.LoadScene(1);
             
     }
 
@@ -102,6 +104,9 @@ public class playerController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        playerHealth -= 1.0f;
+        if (other.CompareTag("Enemy"))
+            playerHealth -= 1.0f;
+        else if (other.CompareTag("Retry"))
+            SceneManager.LoadScene(0);
     }
 }
