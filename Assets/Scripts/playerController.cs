@@ -20,6 +20,7 @@ public class playerController : MonoBehaviour
     [SerializeField] private float NextLevelXp;
     [SerializeField] private float WalkSpeed = 5.5f;
     [SerializeField] private float RunningSpeed = 9.0f;
+    [SerializeField] private float playerDamage = 1.0f;
 
     [SerializeField] private float JumpForce = 8.0f;
     [SerializeField] private float gravity = 20.0f;
@@ -133,5 +134,28 @@ public class playerController : MonoBehaviour
 
         else if (other.CompareTag("Retry"))
             SceneManager.LoadScene(0);
+    }
+
+    public void updateExp(float EXP)
+    {
+        currentXp += EXP;
+        XP.setExp(currentXp);
+        if (currentXp >= NextLevelXp)
+        {
+            playerLevel += 1;
+            WalkSpeed += 2.0f;
+            RunningSpeed += 2.0f;
+            JumpForce += 2.0f;
+            playerDamage += 1;
+            NextLevelXp = (playerLevel / 2) * 100;
+            currentXp = 0;
+            XP.setExp(currentXp);
+            XP.SetMaxExp(NextLevelXp);
+        }
+    }
+
+    public float getDamage()
+    {
+        return playerDamage;
     }
 }

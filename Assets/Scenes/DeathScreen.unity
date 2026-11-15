@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 48ff502b483eca548b814e054cba0b08, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d89ccd75f8f0954184c1d816814386d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2426,6 +2426,7 @@ MonoBehaviour:
   NextLevelXp: 0
   WalkSpeed: 5.5
   RunningSpeed: 9
+  playerDamage: 1
   JumpForce: 8
   gravity: 20
   LookSens: 0.2
