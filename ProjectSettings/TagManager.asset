@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Attack
   - Retry
+  - Enemy
   layers:
   - Default
   - TransparentFX

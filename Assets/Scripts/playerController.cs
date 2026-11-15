@@ -5,10 +5,19 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
+
+
 [RequireComponent(typeof(CharacterController))]
 public class playerController : MonoBehaviour
 {
-    [SerializeField] private float playerHealth = 100.0f;
+    public HealthBar hp;
+    public experienceBar XP;
+
+    [SerializeField] private float maxPlayerHealth = 100.0f;
+    [SerializeField] private float currentHealth;
+    [SerializeField] private float playerLevel;
+    [SerializeField] private float currentXp;
+    [SerializeField] private float NextLevelXp;
     [SerializeField] private float WalkSpeed = 5.5f;
     [SerializeField] private float RunningSpeed = 9.0f;
 
@@ -33,6 +42,18 @@ public class playerController : MonoBehaviour
 
     private void Start()
     {
+        currentHealth = maxPlayerHealth;
+        hp.SetMaxHealth(maxPlayerHealth);
+
+        currentXp= 0;
+        XP.setExp(currentXp);
+
+        playerLevel = 1;
+
+        NextLevelXp = (playerLevel / 2) * 100;
+        XP.SetMaxExp(NextLevelXp);
+
+
         mainCamera = GetComponentInChildren<Camera>();
         characterController = GetComponent<CharacterController>();
 
@@ -61,7 +82,7 @@ public class playerController : MonoBehaviour
         HandleMovement(moveVector);
         HandleLooking(mouseDelta);
 
-        if (playerHealth <= 0.0f)
+        if (currentHealth <= 0.0f)
             SceneManager.LoadScene(1);
             
     }
@@ -105,7 +126,11 @@ public class playerController : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Enemy"))
-            playerHealth -= 1.0f;
+        {
+            currentHealth -= 1.0f;
+            hp.SetHealth(currentHealth);
+        }
+
         else if (other.CompareTag("Retry"))
             SceneManager.LoadScene(0);
     }
