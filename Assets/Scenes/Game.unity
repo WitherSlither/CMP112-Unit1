@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 10910447}
   - component: {fileID: 10910449}
   - component: {fileID: 10910448}
+  - component: {fileID: 10910450}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (7)
   m_TagString: Untagged
@@ -209,6 +210,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10910446}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &10910450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10910446}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086945563, y: -0.0013547131, z: -0.010527333}
 --- !u!1 &46095075
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +242,7 @@ GameObject:
   - component: {fileID: 46095076}
   - component: {fileID: 46095078}
   - component: {fileID: 46095077}
+  - component: {fileID: 46095079}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (17)
   m_TagString: Untagged
@@ -299,6 +322,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46095075}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &46095079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46095075}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649771, y: -0.0010565768, z: -0.0029070028}
 --- !u!1 &56658734
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +453,7 @@ Transform:
   m_GameObject: {fileID: 56658734}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007104131, y: 0.000008800629, z: -0.008072037, w: -0.99996746}
-  m_LocalPosition: {x: 51.77, y: 9.6, z: -41.8832}
+  m_LocalPosition: {x: 51.77, y: 7.9000006, z: -41.8832}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -426,6 +470,7 @@ GameObject:
   - component: {fileID: 65692826}
   - component: {fileID: 65692828}
   - component: {fileID: 65692827}
+  - component: {fileID: 65692829}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (7)
   m_TagString: Untagged
@@ -505,6 +550,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65692825}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &65692829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65692825}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649927, y: -0.0010565693, z: -0.002907007}
 --- !u!1 &74245754
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +771,7 @@ Transform:
   m_GameObject: {fileID: 78471321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.008072037, w: -0.99996746}
-  m_LocalPosition: {x: -26.599985, y: 9.6, z: -75.868805}
+  m_LocalPosition: {x: -26.599985, y: 7.9000006, z: -75.868805}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -722,6 +788,7 @@ GameObject:
   - component: {fileID: 112246974}
   - component: {fileID: 112246976}
   - component: {fileID: 112246975}
+  - component: {fileID: 112246977}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (4)
   m_TagString: Untagged
@@ -801,6 +868,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112246973}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &112246977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112246973}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649927, y: -0.0010565786, z: -0.0029070051}
 --- !u!1 &125282646
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +990,7 @@ GameObject:
   - component: {fileID: 129105090}
   - component: {fileID: 129105092}
   - component: {fileID: 129105091}
+  - component: {fileID: 129105093}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (9)
   m_TagString: Untagged
@@ -981,6 +1070,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129105089}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &129105093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129105089}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.001064992, y: -0.0010565731, z: -0.0029070056}
 --- !u!1 &135043228
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1102,7 @@ GameObject:
   - component: {fileID: 135043229}
   - component: {fileID: 135043231}
   - component: {fileID: 135043230}
+  - component: {fileID: 135043232}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (6)
   m_TagString: Untagged
@@ -1071,6 +1182,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135043228}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &135043232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135043228}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649473, y: -0.0010565768, z: -0.0029070028}
 --- !u!1 &135387228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,6 +1326,7 @@ GameObject:
   - component: {fileID: 135833714}
   - component: {fileID: 135833716}
   - component: {fileID: 135833715}
+  - component: {fileID: 135833717}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (13)
   m_TagString: Untagged
@@ -1273,6 +1406,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135833713}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &135833717
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135833713}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649697, y: -0.0010565694, z: -0.0029070028}
+--- !u!1001 &148931941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -62.369186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3648386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.810738
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f49e43d42ec5584bb449d261a0e926d, type: 2}
+    - target: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_Name
+      value: fountain (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 678290671}
+  m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
 --- !u!1 &150628450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,7 +1592,7 @@ Transform:
   m_GameObject: {fileID: 150628450}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -96.5, y: 9.6, z: -77.2}
+  m_LocalPosition: {x: -96.5, y: 7.9000006, z: -77.2}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1489,6 +1719,7 @@ GameObject:
   - component: {fileID: 204791357}
   - component: {fileID: 204791359}
   - component: {fileID: 204791358}
+  - component: {fileID: 204791360}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (7)
   m_TagString: Untagged
@@ -1568,6 +1799,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204791356}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &204791360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204791356}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694689, y: -0.001354711, z: -0.0105273295}
 --- !u!1 &208808261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,7 +1909,7 @@ Transform:
   m_GameObject: {fileID: 208808261}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -76.4, y: 9.6, z: 89.7}
+  m_LocalPosition: {x: -76.4, y: 7.9000006, z: 89.7}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1785,6 +2037,7 @@ GameObject:
   - component: {fileID: 215962265}
   - component: {fileID: 215962267}
   - component: {fileID: 215962266}
+  - component: {fileID: 215962268}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (15)
   m_TagString: Untagged
@@ -1864,6 +2117,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215962264}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &215962268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215962264}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.00086943165, y: -0.0013547147, z: -0.0105273295}
 --- !u!1001 &230510467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2150,13 +2424,158 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
       insertIndex: 55
       addedObject: {fileID: 999071458}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 230510474}
+    - targetCorrespondingSourceObject: {fileID: -8211579657443704137, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 230510478}
+    - targetCorrespondingSourceObject: {fileID: 4364331396625982817, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 230510477}
+    - targetCorrespondingSourceObject: {fileID: 6852683144228350882, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 230510476}
+    - targetCorrespondingSourceObject: {fileID: 8095315148251503405, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 230510475}
   m_SourcePrefab: {fileID: 100100000, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
 --- !u!4 &230510468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
   m_PrefabInstance: {fileID: 230510467}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &230510469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+  m_PrefabInstance: {fileID: 230510467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &230510470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8095315148251503405, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+  m_PrefabInstance: {fileID: 230510467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &230510471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6852683144228350882, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+  m_PrefabInstance: {fileID: 230510467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &230510472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4364331396625982817, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+  m_PrefabInstance: {fileID: 230510467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &230510473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8211579657443704137, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+  m_PrefabInstance: {fileID: 230510467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &230510474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230510469}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &230510475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230510470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718167, y: 0.015690595, z: 0.0065589487}
+  m_Center: {x: -0.0010649811, y: -0.0010565692, z: -0.002907006}
+--- !u!65 &230510476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230510471}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02071816, y: 0.015690593, z: 0.0065589454}
+  m_Center: {x: -0.001064975, y: -0.0010565768, z: -0.0029070044}
+--- !u!65 &230510477
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230510472}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918991, y: 0.01512339, z: 0.021399537}
+  m_Center: {x: -0.000869437, y: -0.0013547224, z: -0.010527329}
+--- !u!65 &230510478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230510473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919, y: 0.015123395, z: 0.021399545}
+  m_Center: {x: -0.00086944335, y: -0.0013547138, z: -0.010527332}
 --- !u!1 &239813523
 GameObject:
   m_ObjectHideFlags: 0
@@ -2168,6 +2587,7 @@ GameObject:
   - component: {fileID: 239813524}
   - component: {fileID: 239813526}
   - component: {fileID: 239813525}
+  - component: {fileID: 239813527}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (12)
   m_TagString: Untagged
@@ -2247,6 +2667,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239813523}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &239813527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239813523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649771, y: -0.0010565657, z: -0.0029070047}
 --- !u!1 &258632620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,6 +2699,7 @@ GameObject:
   - component: {fileID: 258632621}
   - component: {fileID: 258632623}
   - component: {fileID: 258632622}
+  - component: {fileID: 258632624}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (21)
   m_TagString: Untagged
@@ -2337,6 +2779,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258632620}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &258632624
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258632620}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.001065007, y: -0.0010565768, z: -0.0029070028}
 --- !u!1 &261731107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,7 +2979,7 @@ Transform:
   m_GameObject: {fileID: 269691214}
   serializedVersion: 2
   m_LocalRotation: {x: -0.008072037, y: -0.99996746, z: -0.0000000695298, w: -0.000008613381}
-  m_LocalPosition: {x: 45.176453, y: 9.6, z: -81.25846}
+  m_LocalPosition: {x: 45.176453, y: 7.9000006, z: -81.25846}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5300,6 +5763,7 @@ GameObject:
   - component: {fileID: 348777239}
   - component: {fileID: 348777241}
   - component: {fileID: 348777240}
+  - component: {fileID: 348777242}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (2)
   m_TagString: Untagged
@@ -5379,6 +5843,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348777238}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &348777242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348777238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.001065007, y: -0.0010565768, z: -0.0029070028}
+--- !u!1001 &363163695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -62.369186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3648386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.189262
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f49e43d42ec5584bb449d261a0e926d, type: 2}
+    - target: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_Name
+      value: fountain (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1825712617}
+  m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
 --- !u!1 &370236614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5407,7 +5968,7 @@ Transform:
   m_GameObject: {fileID: 370236614}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -12.620533, y: 9.6, z: -77.541176}
+  m_LocalPosition: {x: -12.620533, y: 7.9000006, z: -77.541176}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5495,6 +6056,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18960415, y: 0.17760785, z: 0.18435444}
   m_Center: {x: -0.027079932, y: 0.02011391, z: 0.042234022}
+--- !u!1 &376949255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 1475595520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &376949256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376949255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &382477542
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,6 +6093,7 @@ GameObject:
   - component: {fileID: 382477543}
   - component: {fileID: 382477545}
   - component: {fileID: 382477544}
+  - component: {fileID: 382477546}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (15)
   m_TagString: Untagged
@@ -5585,6 +6173,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382477542}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &382477546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382477542}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649778, y: -0.0010565767, z: -0.002907007}
 --- !u!1 &383045902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5764,7 +6373,7 @@ Transform:
   m_GameObject: {fileID: 384778515}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -81.1, y: 9.6, z: 47.800003}
+  m_LocalPosition: {x: -81.1, y: 7.9000006, z: 47.800003}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5901,7 +6510,7 @@ Transform:
   m_GameObject: {fileID: 396165658}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -15.127214, y: 9.6, z: 27.3}
+  m_LocalPosition: {x: -15.127214, y: 7.9000006, z: 27.3}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6211,15 +6820,97 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451858858}
+  m_GameObject: {fileID: 431425979}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.69421, y: 10.005013, z: 9.097409}
+  m_Center: {x: 0, y: 5.0024257, z: 0.16152239}
+--- !u!1001 &447786905
+PrefabInstance:
+  m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 22, y: 10, z: 25}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.369186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.9648385
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -43.810738
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f49e43d42ec5584bb449d261a0e926d, type: 2}
+    - target: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_Name
+      value: fountain (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1527661578}
+  m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
 --- !u!1 &454632258
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,7 +7111,7 @@ Transform:
   m_GameObject: {fileID: 456316324}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0000000695298, y: -0.000008613381, z: 0.008072037, w: 0.99996746}
-  m_LocalPosition: {x: 84.85808, y: 9.6, z: 79.81856}
+  m_LocalPosition: {x: 84.85808, y: 7.9000006, z: 79.81856}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8713,7 +9404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3648386
+      value: 3.9648385
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8758,8 +9449,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 471224976}
   m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+--- !u!1 &471224975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 471224974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &471224976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471224975}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &471796460
 GameObject:
   m_ObjectHideFlags: 0
@@ -9022,6 +9742,122 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75d2c3c322ef3548be3ce09dc4396de, type: 3}
+--- !u!1 &509700188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 509700192}
+  - component: {fileID: 509700191}
+  - component: {fileID: 509700190}
+  - component: {fileID: 509700189}
+  m_Layer: 0
+  m_Name: obj_house_2 (51)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &509700189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509700188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18960415, y: 0.17760788, z: 0.18435442}
+  m_Center: {x: -0.027079873, y: 0.02011391, z: 0.042233963}
+--- !u!23 &509700190
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509700188}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2542707991886607865, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -7027102477461104543, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: 4568098223623898887, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -2874489775052802224, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -1162947770227029389, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &509700191
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509700188}
+  m_Mesh: {fileID: 9211104137735847072, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+--- !u!4 &509700192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509700188}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0074575627, y: -0.9238461, z: -0.0030890997, w: -0.38267908}
+  m_LocalPosition: {x: -83.84728, y: 7.9000006, z: 116.1987}
+  m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 494.999, z: 0.925}
 --- !u!1 &517000424
 GameObject:
   m_ObjectHideFlags: 0
@@ -9123,6 +9959,7 @@ GameObject:
   - component: {fileID: 531564521}
   - component: {fileID: 531564523}
   - component: {fileID: 531564522}
+  - component: {fileID: 531564524}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (17)
   m_TagString: Untagged
@@ -9202,6 +10039,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531564520}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &531564524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531564520}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.001064948, y: -0.0010565767, z: -0.0029070051}
 --- !u!1 &533844156
 GameObject:
   m_ObjectHideFlags: 0
@@ -9393,6 +10251,7 @@ GameObject:
   - component: {fileID: 566109092}
   - component: {fileID: 566109094}
   - component: {fileID: 566109093}
+  - component: {fileID: 566109095}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (5)
   m_TagString: Untagged
@@ -9472,6 +10331,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566109091}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &566109095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566109091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649778, y: -0.0010565767, z: -0.0029070051}
 --- !u!1 &575907738
 GameObject:
   m_ObjectHideFlags: 0
@@ -9582,7 +10462,7 @@ Transform:
   m_GameObject: {fileID: 575907738}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707741, y: 0.70707744, z: 0.0057078437, w: 0.70709014}
-  m_LocalPosition: {x: 26.734486, y: 9.6, z: 89.859825}
+  m_LocalPosition: {x: 26.734486, y: 7.9000006, z: 89.859825}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9689,6 +10569,7 @@ GameObject:
   - component: {fileID: 584985106}
   - component: {fileID: 584985108}
   - component: {fileID: 584985107}
+  - component: {fileID: 584985109}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (12)
   m_TagString: Untagged
@@ -9768,6 +10649,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584985105}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &584985109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584985105}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694391, y: -0.001354711, z: -0.010527328}
 --- !u!1 &593768121
 GameObject:
   m_ObjectHideFlags: 0
@@ -9947,7 +10849,7 @@ Transform:
   m_GameObject: {fileID: 601310791}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -15.127214, y: 9.6, z: 47.800003}
+  m_LocalPosition: {x: -15.127214, y: 7.9000006, z: 47.800003}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10063,7 +10965,7 @@ Transform:
   m_GameObject: {fileID: 606531891}
   serializedVersion: 2
   m_LocalRotation: {x: -0.005707741, y: -0.70707744, z: -0.0057078437, w: -0.70709014}
-  m_LocalPosition: {x: 62.576202, y: 9.6, z: -40.94}
+  m_LocalPosition: {x: 62.576202, y: 7.9000006, z: -40.94}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10290,7 +11192,7 @@ Transform:
   m_GameObject: {fileID: 620524680}
   serializedVersion: 2
   m_LocalRotation: {x: -0.005707741, y: -0.70707744, z: -0.0057078437, w: -0.70709014}
-  m_LocalPosition: {x: 96.33089, y: 9.6, z: 76.31865}
+  m_LocalPosition: {x: 96.33089, y: 7.9000006, z: 76.31865}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10307,6 +11209,7 @@ GameObject:
   - component: {fileID: 622385809}
   - component: {fileID: 622385811}
   - component: {fileID: 622385810}
+  - component: {fileID: 622385812}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (18)
   m_TagString: Untagged
@@ -10386,6 +11289,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622385808}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &622385812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622385808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649697, y: -0.0010565768, z: -0.002907001}
 --- !u!1 &622992886
 GameObject:
   m_ObjectHideFlags: 0
@@ -10397,6 +11321,7 @@ GameObject:
   - component: {fileID: 622992887}
   - component: {fileID: 622992889}
   - component: {fileID: 622992888}
+  - component: {fileID: 622992890}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (6)
   m_TagString: Untagged
@@ -10476,6 +11401,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622992886}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &622992890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622992886}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694093, y: -0.0013547222, z: -0.010527328}
 --- !u!1 &624580279
 GameObject:
   m_ObjectHideFlags: 0
@@ -10857,7 +11803,7 @@ Transform:
   m_GameObject: {fileID: 642047000}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -89.82559, y: 9.6, z: 27.843264}
+  m_LocalPosition: {x: -89.82559, y: 7.9000006, z: 27.843264}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10884,6 +11830,48 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18960415, y: 0.17760785, z: 0.18435444}
   m_Center: {x: -0.027079962, y: 0.02011391, z: 0.042234022}
+--- !u!65 &658717660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &658717661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &676078423
 GameObject:
   m_ObjectHideFlags: 0
@@ -11007,6 +11995,7 @@ GameObject:
   - component: {fileID: 678074475}
   - component: {fileID: 678074477}
   - component: {fileID: 678074476}
+  - component: {fileID: 678074478}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (6)
   m_TagString: Untagged
@@ -11086,6 +12075,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678074474}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &678074478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678074474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086944073, y: -0.0013547206, z: -0.0105273295}
+--- !u!1 &678290670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 148931941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &678290671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678290670}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &680243505
 GameObject:
   m_ObjectHideFlags: 0
@@ -11187,6 +12223,7 @@ GameObject:
   - component: {fileID: 685707493}
   - component: {fileID: 685707495}
   - component: {fileID: 685707494}
+  - component: {fileID: 685707496}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (6)
   m_TagString: Untagged
@@ -11266,6 +12303,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685707492}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &685707496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685707492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649778, y: -0.0010565767, z: -0.0029070033}
 --- !u!1 &691701827
 GameObject:
   m_ObjectHideFlags: 0
@@ -11376,7 +12434,7 @@ Transform:
   m_GameObject: {fileID: 691701827}
   serializedVersion: 2
   m_LocalRotation: {x: 0.008072037, y: 0.99996746, z: 0.00000007104131, w: 0.000008800629}
-  m_LocalPosition: {x: -25.8, y: 9.6, z: -94.4}
+  m_LocalPosition: {x: -25.8, y: 7.9000006, z: -94.4}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11393,6 +12451,7 @@ GameObject:
   - component: {fileID: 698107974}
   - component: {fileID: 698107976}
   - component: {fileID: 698107975}
+  - component: {fileID: 698107977}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (19)
   m_TagString: Untagged
@@ -11472,6 +12531,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698107973}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &698107977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698107973}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694391, y: -0.0013547222, z: -0.010527328}
 --- !u!1 &740205503
 GameObject:
   m_ObjectHideFlags: 0
@@ -11561,7 +12641,7 @@ Transform:
   m_GameObject: {fileID: 740205503}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -12.620536, y: 9.6, z: -54.45674}
+  m_LocalPosition: {x: -12.620536, y: 7.9000006, z: -54.45674}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11599,6 +12679,7 @@ GameObject:
   - component: {fileID: 749378671}
   - component: {fileID: 749378673}
   - component: {fileID: 749378672}
+  - component: {fileID: 749378674}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (20)
   m_TagString: Untagged
@@ -11678,6 +12759,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749378670}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &749378674
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749378670}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.0008694482, y: -0.0013547206, z: -0.010527333}
 --- !u!1 &771430819
 GameObject:
   m_ObjectHideFlags: 0
@@ -11790,6 +12892,48 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 40.535954, y: 24, z: 9.09822}
   m_Center: {x: 109.00002, y: 97.999985, z: -0.02388621}
+--- !u!65 &777688566
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &777688567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &780642108
 GameObject:
   m_ObjectHideFlags: 0
@@ -11879,7 +13023,7 @@ Transform:
   m_GameObject: {fileID: 780642108}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.78952, y: 9.481962, z: -34.290447}
+  m_LocalPosition: {x: -8.78952, y: 7.7819624, z: -34.290447}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11917,6 +13061,7 @@ GameObject:
   - component: {fileID: 790178956}
   - component: {fileID: 790178958}
   - component: {fileID: 790178957}
+  - component: {fileID: 790178959}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (9)
   m_TagString: Untagged
@@ -11996,6 +13141,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790178955}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &790178959
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790178955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.0008694258, y: -0.001354728, z: -0.010527333}
 --- !u!1 &815288228
 GameObject:
   m_ObjectHideFlags: 0
@@ -12007,6 +13173,7 @@ GameObject:
   - component: {fileID: 815288229}
   - component: {fileID: 815288231}
   - component: {fileID: 815288230}
+  - component: {fileID: 815288232}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (10)
   m_TagString: Untagged
@@ -12086,6 +13253,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815288228}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &815288232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815288228}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694093, y: -0.0013547222, z: -0.0105273295}
 --- !u!1 &824378866
 GameObject:
   m_ObjectHideFlags: 0
@@ -12335,7 +13523,7 @@ Transform:
   m_GameObject: {fileID: 844606229}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0057078437, y: -0.70709014, z: 0.005707741, w: 0.70707744}
-  m_LocalPosition: {x: 65.078064, y: 9.6, z: 81.99837}
+  m_LocalPosition: {x: 65.078064, y: 7.9000006, z: 81.99837}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12431,6 +13619,238 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -89.036, z: 0}
+--- !u!1 &929450389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929450393}
+  - component: {fileID: 929450392}
+  - component: {fileID: 929450391}
+  - component: {fileID: 929450390}
+  m_Layer: 0
+  m_Name: obj_house_2 (50)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &929450390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929450389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18960415, y: 0.17760788, z: 0.18435442}
+  m_Center: {x: -0.027079873, y: 0.02011391, z: 0.042233963}
+--- !u!23 &929450391
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929450389}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2542707991886607865, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -7027102477461104543, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: 4568098223623898887, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -2874489775052802224, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -1162947770227029389, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &929450392
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929450389}
+  m_Mesh: {fileID: 9211104137735847072, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+--- !u!4 &929450393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929450389}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.008072037, y: -0.99996746, z: -0.000000070314854, w: -0.000008791685}
+  m_LocalPosition: {x: -45.053112, y: 7.9000006, z: 128.04709}
+  m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 539.999, z: 0.925}
+--- !u!1 &938329450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938329454}
+  - component: {fileID: 938329453}
+  - component: {fileID: 938329452}
+  - component: {fileID: 938329451}
+  m_Layer: 0
+  m_Name: obj_house_2 (48)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &938329451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938329450}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18960415, y: 0.17760788, z: 0.18435442}
+  m_Center: {x: -0.027079873, y: 0.02011391, z: 0.042233963}
+--- !u!23 &938329452
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938329450}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2542707991886607865, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -7027102477461104543, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: 4568098223623898887, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -2874489775052802224, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -1162947770227029389, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &938329453
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938329450}
+  m_Mesh: {fileID: 9211104137735847072, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+--- !u!4 &938329454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938329450}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.008072037, y: -0.99996746, z: -0.000000070314854, w: -0.000008791685}
+  m_LocalPosition: {x: 58.946888, y: 7.9000006, z: 128.04709}
+  m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 539.999, z: 0.925}
 --- !u!1 &947110400
 GameObject:
   m_ObjectHideFlags: 0
@@ -12541,7 +13961,7 @@ Transform:
   m_GameObject: {fileID: 947110400}
   serializedVersion: 2
   m_LocalRotation: {x: -0.008072037, y: -0.99996746, z: -0.0000000695298, w: -0.000008613381}
-  m_LocalPosition: {x: -31.682396, y: 9.6, z: 82.92}
+  m_LocalPosition: {x: -31.682396, y: 7.9000006, z: 82.92}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12558,6 +13978,7 @@ GameObject:
   - component: {fileID: 952626058}
   - component: {fileID: 952626060}
   - component: {fileID: 952626059}
+  - component: {fileID: 952626061}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (8)
   m_TagString: Untagged
@@ -12637,6 +14058,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952626057}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &952626061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952626057}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649473, y: -0.0010565768, z: -0.0029070047}
 --- !u!1 &955113388
 GameObject:
   m_ObjectHideFlags: 0
@@ -12726,7 +14168,7 @@ Transform:
   m_GameObject: {fileID: 955113388}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: -0.005707792, w: -0.70708376}
-  m_LocalPosition: {x: -46.38, y: 9.6, z: 74.1}
+  m_LocalPosition: {x: -46.38, y: 7.9000006, z: 74.1}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12842,7 +14284,7 @@ Transform:
   m_GameObject: {fileID: 963752042}
   serializedVersion: 2
   m_LocalRotation: {x: -0.005707741, y: -0.70707744, z: -0.0057078437, w: -0.70709014}
-  m_LocalPosition: {x: 64.95638, y: 9.6, z: -62.15837}
+  m_LocalPosition: {x: 64.95638, y: 7.9000006, z: -62.15837}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12880,6 +14322,7 @@ GameObject:
   - component: {fileID: 981127044}
   - component: {fileID: 981127046}
   - component: {fileID: 981127045}
+  - component: {fileID: 981127047}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (2)
   m_TagString: Untagged
@@ -12959,6 +14402,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981127043}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &981127047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981127043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086944073, y: -0.0013547206, z: -0.010527333}
 --- !u!1 &999071457
 GameObject:
   m_ObjectHideFlags: 0
@@ -12970,6 +14434,7 @@ GameObject:
   - component: {fileID: 999071458}
   - component: {fileID: 999071460}
   - component: {fileID: 999071459}
+  - component: {fileID: 999071461}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (11)
   m_TagString: Untagged
@@ -13049,6 +14514,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999071457}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &999071461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999071457}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.001065007, y: -0.0010565657, z: -0.0029070047}
 --- !u!1 &1010408614
 GameObject:
   m_ObjectHideFlags: 0
@@ -13060,6 +14546,7 @@ GameObject:
   - component: {fileID: 1010408615}
   - component: {fileID: 1010408617}
   - component: {fileID: 1010408616}
+  - component: {fileID: 1010408618}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (17)
   m_TagString: Untagged
@@ -13139,6 +14626,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010408614}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1010408618
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010408614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.0008694109, y: -0.0013547206, z: -0.010527331}
 --- !u!1 &1031531283
 GameObject:
   m_ObjectHideFlags: 0
@@ -13150,6 +14658,7 @@ GameObject:
   - component: {fileID: 1031531284}
   - component: {fileID: 1031531286}
   - component: {fileID: 1031531285}
+  - component: {fileID: 1031531287}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (20)
   m_TagString: Untagged
@@ -13229,6 +14738,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031531283}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1031531287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031531283}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649741, y: -0.0010565767, z: -0.0029070051}
 --- !u!1 &1036255465
 GameObject:
   m_ObjectHideFlags: 0
@@ -13240,6 +14770,7 @@ GameObject:
   - component: {fileID: 1036255466}
   - component: {fileID: 1036255468}
   - component: {fileID: 1036255467}
+  - component: {fileID: 1036255469}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (9)
   m_TagString: Untagged
@@ -13319,6 +14850,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036255465}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1036255469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036255465}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008693795, y: -0.0013547185, z: -0.010527328}
 --- !u!1001 &1053528218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13518,7 +15070,7 @@ Transform:
   m_GameObject: {fileID: 1056097186}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0057078437, y: -0.70709014, z: 0.005707741, w: 0.70707744}
-  m_LocalPosition: {x: 103.3, y: 9.6, z: -91.3}
+  m_LocalPosition: {x: 103.3, y: 7.9000006, z: -91.3}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13535,6 +15087,7 @@ GameObject:
   - component: {fileID: 1060342679}
   - component: {fileID: 1060342681}
   - component: {fileID: 1060342680}
+  - component: {fileID: 1060342682}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (11)
   m_TagString: Untagged
@@ -13614,6 +15167,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060342678}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1060342682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060342678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649629, y: -0.0010565842, z: -0.002907007}
 --- !u!1 &1069961492
 GameObject:
   m_ObjectHideFlags: 0
@@ -13724,7 +15298,7 @@ Transform:
   m_GameObject: {fileID: 1069961492}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -15.127214, y: 9.6, z: 67.3}
+  m_LocalPosition: {x: -15.127214, y: 7.9000006, z: 67.3}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13840,7 +15414,7 @@ Transform:
   m_GameObject: {fileID: 1072874098}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0057078437, y: -0.70709014, z: 0.005707741, w: 0.70707744}
-  m_LocalPosition: {x: 103.3, y: 9.6, z: -61.9}
+  m_LocalPosition: {x: 103.3, y: 7.9000006, z: -61.9}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13956,7 +15530,7 @@ Transform:
   m_GameObject: {fileID: 1074448100}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0057078437, y: -0.70709014, z: 0.005707741, w: 0.70707744}
-  m_LocalPosition: {x: 65.07824, y: 9.6, z: 60.71836}
+  m_LocalPosition: {x: 65.07824, y: 7.9000006, z: 60.71836}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14051,7 +15625,7 @@ Transform:
   m_GameObject: {fileID: 1083544935}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -93.2, y: 9.6, z: -97.15674}
+  m_LocalPosition: {x: -93.2, y: 7.9000006, z: -97.15674}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14179,6 +15753,7 @@ GameObject:
   - component: {fileID: 1099907836}
   - component: {fileID: 1099907838}
   - component: {fileID: 1099907837}
+  - component: {fileID: 1099907839}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (2)
   m_TagString: Untagged
@@ -14258,6 +15833,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099907835}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1099907839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099907835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649778, y: -0.0010565767, z: -0.002907007}
 --- !u!1 &1112728276
 GameObject:
   m_ObjectHideFlags: 0
@@ -14269,6 +15865,7 @@ GameObject:
   - component: {fileID: 1112728277}
   - component: {fileID: 1112728279}
   - component: {fileID: 1112728278}
+  - component: {fileID: 1112728280}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (16)
   m_TagString: Untagged
@@ -14348,6 +15945,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112728276}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1112728280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112728276}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649771, y: -0.0010565657, z: -0.0029070028}
 --- !u!1 &1119108786
 GameObject:
   m_ObjectHideFlags: 0
@@ -14449,6 +16067,7 @@ GameObject:
   - component: {fileID: 1130180778}
   - component: {fileID: 1130180780}
   - component: {fileID: 1130180779}
+  - component: {fileID: 1130180781}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (16)
   m_TagString: Untagged
@@ -14528,6 +16147,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130180777}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1130180781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130180777}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086944073, y: -0.001354728, z: -0.010527332}
 --- !u!1 &1149775523
 GameObject:
   m_ObjectHideFlags: 0
@@ -14539,6 +16179,7 @@ GameObject:
   - component: {fileID: 1149775524}
   - component: {fileID: 1149775526}
   - component: {fileID: 1149775525}
+  - component: {fileID: 1149775527}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (14)
   m_TagString: Untagged
@@ -14618,6 +16259,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149775523}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1149775527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149775523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649853, y: -0.0010565693, z: -0.002907008}
 --- !u!1 &1154366851
 GameObject:
   m_ObjectHideFlags: 0
@@ -14629,6 +16291,7 @@ GameObject:
   - component: {fileID: 1154366852}
   - component: {fileID: 1154366854}
   - component: {fileID: 1154366853}
+  - component: {fileID: 1154366855}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (5)
   m_TagString: Untagged
@@ -14708,6 +16371,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154366851}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1154366855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154366851}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649175, y: -0.0010565731, z: -0.0029070028}
 --- !u!1 &1155648842
 GameObject:
   m_ObjectHideFlags: 0
@@ -14809,6 +16493,7 @@ GameObject:
   - component: {fileID: 1160377628}
   - component: {fileID: 1160377630}
   - component: {fileID: 1160377629}
+  - component: {fileID: 1160377631}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (15)
   m_TagString: Untagged
@@ -14888,6 +16573,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160377627}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1160377631
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160377627}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.0008694482, y: -0.0013547206, z: -0.010527335}
 --- !u!1 &1184407928
 GameObject:
   m_ObjectHideFlags: 0
@@ -15354,8 +17060,172 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 3124521936383007385, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777688567}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777688566}
+    - targetCorrespondingSourceObject: {fileID: -612630216642143761, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201503857}
+    - targetCorrespondingSourceObject: {fileID: -1837727367831356976, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201503856}
+    - targetCorrespondingSourceObject: {fileID: 8675600772254434597, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201503855}
+    - targetCorrespondingSourceObject: {fileID: -6334019082119198259, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201503854}
+    - targetCorrespondingSourceObject: {fileID: 2393395692411231269, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201503853}
+    - targetCorrespondingSourceObject: {fileID: 1098739021241741321, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2103222384}
   m_SourcePrefab: {fileID: 100100000, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+--- !u!1 &1201503846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201503847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1098739021241741321, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201503848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2393395692411231269, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201503849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6334019082119198259, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201503850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8675600772254434597, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201503851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1837727367831356976, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201503852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -612630216642143761, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 1201503845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1201503853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503848}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0151959965, y: 0.022107122, z: 0.04027177}
+  m_Center: {x: 0.0031342364, y: 0.010165366, z: 0.043202426}
+--- !u!65 &1201503854
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503849}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.024411933, y: 0.026153276, z: 0.07825632}
+  m_Center: {x: 0.0005269148, y: -0.00013078764, z: 0.03880684}
+--- !u!65 &1201503855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.024411933, y: 0.02615327, z: 0.07825629}
+  m_Center: {x: 0.0005269185, y: -0.00013079094, z: 0.03880683}
+--- !u!65 &1201503856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503851}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009327519, y: 0.025010658, z: 0.013250123}
+  m_Center: {x: 0.00061326096, y: -0.017663505, z: 0.0565924}
+--- !u!65 &1201503857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503852}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.00932752, y: 0.025010658, z: 0.013250124}
+  m_Center: {x: 0.00061326043, y: -0.017663507, z: 0.0565924}
 --- !u!1 &1203335994
 GameObject:
   m_ObjectHideFlags: 0
@@ -15457,6 +17327,7 @@ GameObject:
   - component: {fileID: 1213182716}
   - component: {fileID: 1213182718}
   - component: {fileID: 1213182717}
+  - component: {fileID: 1213182719}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (11)
   m_TagString: Untagged
@@ -15536,6 +17407,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213182715}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1213182719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213182715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086947053, y: -0.001354728, z: -0.010527333}
 --- !u!1 &1224128364
 GameObject:
   m_ObjectHideFlags: 0
@@ -15637,6 +17529,7 @@ GameObject:
   - component: {fileID: 1240077885}
   - component: {fileID: 1240077887}
   - component: {fileID: 1240077886}
+  - component: {fileID: 1240077888}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (9)
   m_TagString: Untagged
@@ -15716,6 +17609,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240077884}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1240077888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240077884}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010650076, y: -0.0010565767, z: -0.002907007}
 --- !u!1 &1247944745
 GameObject:
   m_ObjectHideFlags: 0
@@ -15826,7 +17740,7 @@ Transform:
   m_GameObject: {fileID: 1247944745}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707741, y: 0.70707744, z: 0.0057078437, w: 0.70709014}
-  m_LocalPosition: {x: 26.734634, y: 9.6, z: 60.4598}
+  m_LocalPosition: {x: 26.734634, y: 7.9000006, z: 60.4598}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15870,6 +17784,7 @@ GameObject:
   - component: {fileID: 1272782103}
   - component: {fileID: 1272782105}
   - component: {fileID: 1272782104}
+  - component: {fileID: 1272782106}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (19)
   m_TagString: Untagged
@@ -15949,6 +17864,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272782102}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1272782106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272782102}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010649853, y: -0.0010565786, z: -0.002907007}
 --- !u!1 &1323685858
 GameObject:
   m_ObjectHideFlags: 0
@@ -16061,6 +17997,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 40.53594, y: 24, z: 9.098217}
   m_Center: {x: 108.999985, y: 97.999985, z: -0.0238862}
+--- !u!65 &1338058437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430857}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009157685, y: 0.028258603, z: 0.12665236}
+  m_Center: {x: 0.00037607085, y: -0.01621506, z: 0.06323272}
 --- !u!1 &1339031099
 GameObject:
   m_ObjectHideFlags: 0
@@ -16150,7 +18107,7 @@ Transform:
   m_GameObject: {fileID: 1339031099}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: -0.005707792, w: -0.70708376}
-  m_LocalPosition: {x: -50.7, y: 9.6, z: -30.217648}
+  m_LocalPosition: {x: -50.7, y: 7.9000006, z: -30.217648}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16188,6 +18145,7 @@ GameObject:
   - component: {fileID: 1339261913}
   - component: {fileID: 1339261915}
   - component: {fileID: 1339261914}
+  - component: {fileID: 1339261916}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (7)
   m_TagString: Untagged
@@ -16267,6 +18225,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339261912}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1339261916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339261912}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.0010649175, y: -0.0010565731, z: -0.0029070037}
 --- !u!1 &1344395435
 GameObject:
   m_ObjectHideFlags: 0
@@ -16467,7 +18446,7 @@ Transform:
   m_GameObject: {fileID: 1357459222}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0057078437, y: -0.70709014, z: 0.005707741, w: 0.70707744}
-  m_LocalPosition: {x: 103.3, y: 9.6, z: -37.8}
+  m_LocalPosition: {x: 103.3, y: 7.9000006, z: -37.8}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16574,6 +18553,7 @@ GameObject:
   - component: {fileID: 1383226945}
   - component: {fileID: 1383226947}
   - component: {fileID: 1383226946}
+  - component: {fileID: 1383226948}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (12)
   m_TagString: Untagged
@@ -16653,6 +18633,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383226944}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1383226948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383226944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.001064948, y: -0.0010565767, z: -0.002907008}
 --- !u!1 &1385768435
 GameObject:
   m_ObjectHideFlags: 0
@@ -16770,6 +18771,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf09d21ed897b1f4b8b76d04660c3210, type: 3}
   m_PrefabInstance: {fileID: 2136227624}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1398993720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.369186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3648386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 121.18926
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f49e43d42ec5584bb449d261a0e926d, type: 2}
+    - target: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_Name
+      value: fountain (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1937870733}
+  m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
 --- !u!1 &1411140492
 GameObject:
   m_ObjectHideFlags: 0
@@ -16893,6 +18970,7 @@ GameObject:
   - component: {fileID: 1421517659}
   - component: {fileID: 1421517661}
   - component: {fileID: 1421517660}
+  - component: {fileID: 1421517662}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (17)
   m_TagString: Untagged
@@ -16972,6 +19050,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421517658}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1421517662
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421517658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694689, y: -0.0013547222, z: -0.010527328}
 --- !u!1 &1423429601
 GameObject:
   m_ObjectHideFlags: 0
@@ -17352,7 +19451,7 @@ Transform:
   m_GameObject: {fileID: 1445406369}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: -0.005707792, w: -0.70708376}
-  m_LocalPosition: {x: -44, y: 9.6, z: 33.85299}
+  m_LocalPosition: {x: -44, y: 7.9000006, z: 33.85299}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17416,6 +19515,7 @@ GameObject:
   - component: {fileID: 1468702620}
   - component: {fileID: 1468702622}
   - component: {fileID: 1468702621}
+  - component: {fileID: 1468702623}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (12)
   m_TagString: Untagged
@@ -17495,6 +19595,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468702619}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1468702623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468702619}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.0008694109, y: -0.0013547206, z: -0.010527334}
+--- !u!1001 &1475595520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44.630814
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3648386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 121.18926
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f49e43d42ec5584bb449d261a0e926d, type: 2}
+    - target: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      propertyPath: m_Name
+      value: fountain (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 376949256}
+  m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
 --- !u!1 &1486412730
 GameObject:
   m_ObjectHideFlags: 0
@@ -17722,7 +19919,7 @@ Transform:
   m_GameObject: {fileID: 1508906351}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0057078437, y: -0.70709014, z: 0.005707741, w: 0.70707744}
-  m_LocalPosition: {x: 67.458534, y: 9.6, z: 39.5}
+  m_LocalPosition: {x: 67.458534, y: 7.9000006, z: 39.5}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17818,6 +20015,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -89.036, z: 0}
+--- !u!1 &1527661577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 447786905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1527661578
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527661577}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &1530727279
 GameObject:
   m_ObjectHideFlags: 0
@@ -18098,6 +20321,7 @@ GameObject:
   - component: {fileID: 1568280928}
   - component: {fileID: 1568280930}
   - component: {fileID: 1568280929}
+  - component: {fileID: 1568280931}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (4)
   m_TagString: Untagged
@@ -18177,6 +20401,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568280927}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1568280931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568280927}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.000869454, y: -0.0013547185, z: -0.0105273295}
 --- !u!1 &1575700022
 GameObject:
   m_ObjectHideFlags: 0
@@ -18188,6 +20433,7 @@ GameObject:
   - component: {fileID: 1575700023}
   - component: {fileID: 1575700025}
   - component: {fileID: 1575700024}
+  - component: {fileID: 1575700026}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (5)
   m_TagString: Untagged
@@ -18267,6 +20513,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575700022}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1575700026
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575700022}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086944073, y: -0.0013547206, z: -0.010527331}
 --- !u!1 &1580194111
 GameObject:
   m_ObjectHideFlags: 0
@@ -18368,6 +20635,7 @@ GameObject:
   - component: {fileID: 1612151524}
   - component: {fileID: 1612151526}
   - component: {fileID: 1612151525}
+  - component: {fileID: 1612151527}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (11)
   m_TagString: Untagged
@@ -18447,6 +20715,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612151523}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1612151527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612151523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.000869454, y: -0.0013547185, z: -0.0105273295}
 --- !u!1 &1620574350
 GameObject:
   m_ObjectHideFlags: 0
@@ -18779,6 +21068,122 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -89.722, z: 0}
+--- !u!1 &1633904147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633904151}
+  - component: {fileID: 1633904150}
+  - component: {fileID: 1633904149}
+  - component: {fileID: 1633904148}
+  m_Layer: 0
+  m_Name: obj_house_2 (49)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1633904148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633904147}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18960415, y: 0.17760788, z: 0.18435442}
+  m_Center: {x: -0.027079873, y: 0.02011391, z: 0.042233963}
+--- !u!23 &1633904149
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633904147}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2542707991886607865, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -7027102477461104543, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: 4568098223623898887, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -2874489775052802224, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  - {fileID: -1162947770227029389, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1633904150
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633904147}
+  m_Mesh: {fileID: 9211104137735847072, guid: 6edf455b13632434fa8ddced4abbf835, type: 3}
+--- !u!4 &1633904151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633904147}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.007457617, y: -0.92385286, z: 0.00308897, w: 0.38266283}
+  m_LocalPosition: {x: 91.229675, y: 7.9000006, z: 119.792534}
+  m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 584.999, z: 0.925}
 --- !u!1 &1636876315
 GameObject:
   m_ObjectHideFlags: 0
@@ -18790,6 +21195,7 @@ GameObject:
   - component: {fileID: 1636876316}
   - component: {fileID: 1636876318}
   - component: {fileID: 1636876317}
+  - component: {fileID: 1636876319}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (21)
   m_TagString: Untagged
@@ -18869,6 +21275,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636876315}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1636876319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636876315}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.000869437, y: -0.0013547206, z: -0.010527331}
 --- !u!1 &1643444834
 GameObject:
   m_ObjectHideFlags: 0
@@ -18897,7 +21324,7 @@ Transform:
   m_GameObject: {fileID: 1643444834}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.7, y: 9.481962, z: -155.7}
+  m_LocalPosition: {x: -7.7, y: 7.7819624, z: -155.7}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19074,7 +21501,7 @@ Transform:
   m_GameObject: {fileID: 1661929899}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.008072037, w: -0.99996746}
-  m_LocalPosition: {x: -26.6, y: 9.6, z: 93.2}
+  m_LocalPosition: {x: -26.6, y: 7.9000006, z: 93.2}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19190,7 +21617,7 @@ Transform:
   m_GameObject: {fileID: 1668113608}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -15.127214, y: 9.6, z: 89.7}
+  m_LocalPosition: {x: -15.127214, y: 7.9000006, z: 89.7}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19243,7 +21670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3648386
+      value: 3.9648385
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19288,8 +21715,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1670589458}
   m_SourcePrefab: {fileID: 100100000, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+--- !u!1 &1670589457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 1670589456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1670589458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670589457}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &1692884096
 GameObject:
   m_ObjectHideFlags: 0
@@ -19379,7 +21835,7 @@ Transform:
   m_GameObject: {fileID: 1692884096}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: -0.005707792, w: -0.70708376}
-  m_LocalPosition: {x: -50.7, y: 9.6, z: -71.7}
+  m_LocalPosition: {x: -50.7, y: 7.9000006, z: -71.7}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19495,7 +21951,7 @@ Transform:
   m_GameObject: {fileID: 1694760670}
   serializedVersion: 2
   m_LocalRotation: {x: 0.007796989, y: 0.9658944, z: -0.0020891964, w: -0.25881055}
-  m_LocalPosition: {x: -47.8, y: 9.6, z: -89.4}
+  m_LocalPosition: {x: -47.8, y: 7.9000006, z: -89.4}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19611,7 +22067,7 @@ Transform:
   m_GameObject: {fileID: 1713976440}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: -0.005707792, w: -0.70708376}
-  m_LocalPosition: {x: -46.38, y: 9.6, z: 95.38}
+  m_LocalPosition: {x: -46.38, y: 7.9000006, z: 95.38}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19748,7 +22204,7 @@ Transform:
   m_GameObject: {fileID: 1721766230}
   serializedVersion: 2
   m_LocalRotation: {x: -0.008072037, y: -0.99996746, z: -0.0000000695298, w: -0.000008613381}
-  m_LocalPosition: {x: 78.26473, y: 9.6, z: 40.443253}
+  m_LocalPosition: {x: 78.26473, y: 7.9000006, z: 40.443253}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19864,7 +22320,7 @@ Transform:
   m_GameObject: {fileID: 1732238238}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707741, y: 0.70707744, z: 0.0057078437, w: 0.70709014}
-  m_LocalPosition: {x: 26.734749, y: 9.6, z: 36.35981}
+  m_LocalPosition: {x: 26.734749, y: 7.9000006, z: 36.35981}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19881,6 +22337,7 @@ GameObject:
   - component: {fileID: 1752980014}
   - component: {fileID: 1752980016}
   - component: {fileID: 1752980015}
+  - component: {fileID: 1752980017}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (4)
   m_TagString: Untagged
@@ -19960,6 +22417,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752980013}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1752980017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752980013}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086945563, y: -0.0013547224, z: -0.010527331}
 --- !u!1 &1756661310
 GameObject:
   m_ObjectHideFlags: 0
@@ -20289,6 +22767,7 @@ GameObject:
   - component: {fileID: 1795418935}
   - component: {fileID: 1795418937}
   - component: {fileID: 1795418936}
+  - component: {fileID: 1795418938}
   m_Layer: 0
   m_Name: Market Stall low-poly.009 (10)
   m_TagString: Untagged
@@ -20368,6 +22847,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795418934}
   m_Mesh: {fileID: -5874813001294239224, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1795418938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795418934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718172, y: 0.015690602, z: 0.0065589524}
+  m_Center: {x: -0.0010650076, y: -0.0010565767, z: -0.002907007}
+--- !u!1 &1825712616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 363163695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1825712617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825712616}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &1857578860
 GameObject:
   m_ObjectHideFlags: 0
@@ -20379,6 +22905,7 @@ GameObject:
   - component: {fileID: 1857578861}
   - component: {fileID: 1857578863}
   - component: {fileID: 1857578862}
+  - component: {fileID: 1857578864}
   m_Layer: 0
   m_Name: Market Stall low-poly.010 (4)
   m_TagString: Untagged
@@ -20458,6 +22985,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857578860}
   m_Mesh: {fileID: -4560546054943632489, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1857578864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857578860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020718165, y: 0.015690593, z: 0.0065589463}
+  m_Center: {x: -0.001064992, y: -0.0010565731, z: -0.0029070047}
 --- !u!1 &1858658422
 GameObject:
   m_ObjectHideFlags: 0
@@ -20547,7 +23095,7 @@ Transform:
   m_GameObject: {fileID: 1858658422}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0057078437, y: 0.70709014, z: -0.005707741, w: -0.70707744}
-  m_LocalPosition: {x: 33.703667, y: 9.6, z: -77.7585}
+  m_LocalPosition: {x: 33.703667, y: 7.9000006, z: -77.7585}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20764,6 +23312,7 @@ GameObject:
   - component: {fileID: 1897615996}
   - component: {fileID: 1897615998}
   - component: {fileID: 1897615997}
+  - component: {fileID: 1897615999}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (20)
   m_TagString: Untagged
@@ -20843,6 +23392,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897615995}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1897615999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897615995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.00086943165, y: -0.0013547222, z: -0.010527328}
 --- !u!1 &1907770689
 GameObject:
   m_ObjectHideFlags: 0
@@ -20854,6 +23424,7 @@ GameObject:
   - component: {fileID: 1907770690}
   - component: {fileID: 1907770692}
   - component: {fileID: 1907770691}
+  - component: {fileID: 1907770693}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (5)
   m_TagString: Untagged
@@ -20933,6 +23504,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907770689}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1907770693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907770689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008693795, y: -0.0013547222, z: -0.010527328}
 --- !u!1 &1909428984
 GameObject:
   m_ObjectHideFlags: 0
@@ -21016,7 +23608,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 2a4dd8740c8a670499ca8ddc3ba48eb3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21272,7 +23864,7 @@ Transform:
   m_GameObject: {fileID: 1928699372}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -94.1, y: 9.6, z: -35.3}
+  m_LocalPosition: {x: -94.1, y: 7.9000006, z: -35.3}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21299,6 +23891,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18960415, y: 0.17760785, z: 0.18435444}
   m_Center: {x: -0.027079932, y: 0.02011391, z: 0.042234022}
+--- !u!1 &1937870732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccec7a6cd1f3fe9478718adce2125b64, type: 3}
+  m_PrefabInstance: {fileID: 1398993720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1937870733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937870732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1615.7251, y: 1072.9685, z: 1615.7253}
+  m_Center: {x: -0.00012207031, y: 0, z: 0.00018310547}
 --- !u!1 &1944962283
 GameObject:
   m_ObjectHideFlags: 0
@@ -21388,7 +24006,7 @@ Transform:
   m_GameObject: {fileID: 1944962283}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0057078437, y: 0.70709014, z: -0.005707741, w: -0.70707744}
-  m_LocalPosition: {x: 33.703476, y: 9.6, z: -35.858505}
+  m_LocalPosition: {x: 33.703476, y: 7.9000006, z: -35.858505}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21616,7 +24234,7 @@ Transform:
   m_GameObject: {fileID: 1964113198}
   serializedVersion: 2
   m_LocalRotation: {x: -0.005707741, y: -0.70707744, z: -0.0057078437, w: -0.70709014}
-  m_LocalPosition: {x: 64.956474, y: 9.6, z: -83.43836}
+  m_LocalPosition: {x: 64.956474, y: 7.9000006, z: -83.43836}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21842,7 +24460,7 @@ Transform:
   m_GameObject: {fileID: 1970004850}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: -0.005707792, w: -0.70708376}
-  m_LocalPosition: {x: -44, y: 9.6, z: 54.5}
+  m_LocalPosition: {x: -44, y: 7.9000006, z: 54.5}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21859,6 +24477,7 @@ GameObject:
   - component: {fileID: 1982507239}
   - component: {fileID: 1982507241}
   - component: {fileID: 1982507240}
+  - component: {fileID: 1982507242}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (2)
   m_TagString: Untagged
@@ -21938,6 +24557,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982507238}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &1982507242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982507238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.0008694689, y: -0.0013547222, z: -0.010527328}
 --- !u!1 &1987451296
 GameObject:
   m_ObjectHideFlags: 0
@@ -22160,7 +24800,7 @@ Transform:
   m_GameObject: {fileID: 1992051365}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -94.1, y: 9.6, z: -56.3}
+  m_LocalPosition: {x: -94.1, y: 7.9000006, z: -56.3}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22177,6 +24817,7 @@ GameObject:
   - component: {fileID: 2021038929}
   - component: {fileID: 2021038931}
   - component: {fileID: 2021038930}
+  - component: {fileID: 2021038932}
   m_Layer: 0
   m_Name: Market Stall low-poly.003 (14)
   m_TagString: Untagged
@@ -22256,6 +24897,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021038928}
   m_Mesh: {fileID: 8877973085898144664, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &2021038932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021038928}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020918997, y: 0.01512339, z: 0.021399539}
+  m_Center: {x: -0.00086943165, y: -0.0013547185, z: -0.010527328}
 --- !u!1 &2037513628
 GameObject:
   m_ObjectHideFlags: 0
@@ -22581,6 +25243,7 @@ GameObject:
   - component: {fileID: 2080882065}
   - component: {fileID: 2080882067}
   - component: {fileID: 2080882066}
+  - component: {fileID: 2080882068}
   m_Layer: 0
   m_Name: Market Stall low-poly.002 (10)
   m_TagString: Untagged
@@ -22660,6 +25323,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080882064}
   m_Mesh: {fileID: -5660353278697581115, guid: 91c586421e9452a45a5ababd466998d0, type: 3}
+--- !u!65 &2080882068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080882064}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020919006, y: 0.015123402, z: 0.021399548}
+  m_Center: {x: -0.00086947053, y: -0.0013547206, z: -0.010527332}
 --- !u!1 &2082622400
 GameObject:
   m_ObjectHideFlags: 0
@@ -22749,7 +25433,7 @@ Transform:
   m_GameObject: {fileID: 2082622400}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005707792, y: 0.70708376, z: 0.005707792, w: 0.70708376}
-  m_LocalPosition: {x: -82.5, y: 9.6, z: 69}
+  m_LocalPosition: {x: -82.5, y: 7.9000006, z: 69}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23152,8 +25836,193 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 3124521936383007385, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 658717661}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 658717660}
+    - targetCorrespondingSourceObject: {fileID: -612630216642143761, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2089430867}
+    - targetCorrespondingSourceObject: {fileID: -1837727367831356976, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2089430866}
+    - targetCorrespondingSourceObject: {fileID: 8675600772254434597, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2089430865}
+    - targetCorrespondingSourceObject: {fileID: -6334019082119198259, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2089430864}
+    - targetCorrespondingSourceObject: {fileID: 2393395692411231269, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2089430863}
+    - targetCorrespondingSourceObject: {fileID: 1098739021241741321, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1338058437}
   m_SourcePrefab: {fileID: 100100000, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+--- !u!1 &2089430856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089430857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1098739021241741321, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089430858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2393395692411231269, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089430859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6334019082119198259, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089430860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8675600772254434597, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089430861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1837727367831356976, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089430862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -612630216642143761, guid: d3db90db7ce052f41baffc7d6af65c77, type: 3}
+  m_PrefabInstance: {fileID: 2089430855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2089430863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.015195997, y: 0.022107117, z: 0.040271755}
+  m_Center: {x: 0.0031342343, y: 0.01016536, z: 0.04320241}
+--- !u!65 &2089430864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430859}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.024411933, y: 0.02615327, z: 0.07825629}
+  m_Center: {x: 0.00052691385, y: -0.00013079103, z: 0.03880683}
+--- !u!65 &2089430865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.024411933, y: 0.026153276, z: 0.07825632}
+  m_Center: {x: 0.0005269185, y: -0.00013078612, z: 0.03880684}
+--- !u!65 &2089430866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430861}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009327527, y: 0.025010671, z: 0.013250138}
+  m_Center: {x: 0.00061326294, y: -0.017663535, z: 0.056592427}
+--- !u!65 &2089430867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089430862}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009327519, y: 0.025010666, z: 0.0132501265}
+  m_Center: {x: 0.0006132647, y: -0.017663507, z: 0.05659242}
+--- !u!65 &2103222384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201503847}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009157684, y: 0.028258609, z: 0.1266524}
+  m_Center: {x: 0.00037607222, y: -0.016215062, z: 0.06323274}
 --- !u!1 &2113817909
 GameObject:
   m_ObjectHideFlags: 0
@@ -23264,7 +26133,7 @@ Transform:
   m_GameObject: {fileID: 2113817909}
   serializedVersion: 2
   m_LocalRotation: {x: -0.005707741, y: -0.70707744, z: -0.0057078437, w: -0.70709014}
-  m_LocalPosition: {x: 96.33126, y: 9.6, z: 34.418655}
+  m_LocalPosition: {x: 96.33126, y: 7.9000006, z: 34.418655}
   m_LocalScale: {x: 92.33637, y: 126.34865, z: 85.00239}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23524,6 +26393,10 @@ SceneRoots:
   - {fileID: 1858658425}
   - {fileID: 1964113201}
   - {fileID: 844606233}
+  - {fileID: 938329454}
+  - {fileID: 929450393}
+  - {fileID: 509700192}
+  - {fileID: 1633904151}
   - {fileID: 620524684}
   - {fileID: 2113817913}
   - {fileID: 456316328}
@@ -23556,4 +26429,9 @@ SceneRoots:
   - {fileID: 2089430855}
   - {fileID: 230510467}
   - {fileID: 471224974}
+  - {fileID: 447786905}
+  - {fileID: 1398993720}
+  - {fileID: 363163695}
+  - {fileID: 148931941}
+  - {fileID: 1475595520}
   - {fileID: 1670589456}
