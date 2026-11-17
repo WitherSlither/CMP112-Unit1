@@ -1,9 +1,11 @@
 // taken from Shark games first person movement in unity youtube guide
 
+using System.Collections;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+
 
 
 
@@ -21,6 +23,8 @@ public class playerController : MonoBehaviour
     [SerializeField] private float WalkSpeed = 5.5f;
     [SerializeField] private float RunningSpeed = 9.0f;
     [SerializeField] private float playerDamage = 1.0f;
+
+    [SerializeField] private bool isInvincible = false;
 
     [SerializeField] private float JumpForce = 8.0f;
     [SerializeField] private float gravity = 20.0f;
@@ -126,16 +130,37 @@ public class playerController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Enemy"))
+        if (isInvincible == false)
         {
-            currentHealth -= 1.0f;
-            hp.SetHealth(currentHealth);
+            if (other.CompareTag("Enemy"))
+            {
+                currentHealth -= 1.0f;
+                hp.SetHealth(currentHealth);
+            }
         }
 
-        else if (other.CompareTag("Retry"))
+        if (other.CompareTag("Retry"))
             SceneManager.LoadScene(0);
+
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Invincible"))
+        {
+            Destroy(other.gameObject);
+            isInvincible = true;
+            StartCoroutine(Invtimer());
+            
+        }
+
+        if (other.CompareTag("DamagePowerup"))
+        {
+            Destroy(other.gameObject);
+            playerDamage *= 3;
+            StartCoroutine(DamTimer());
+        }
+    }
     public void updateExp(float EXP)
     {
         currentXp += EXP;
@@ -157,5 +182,17 @@ public class playerController : MonoBehaviour
     public float getDamage()
     {
         return playerDamage;
+    }
+
+     IEnumerator Invtimer()
+    {
+        yield return new WaitForSeconds(5.0f);
+        isInvincible = false;
+    }
+
+    IEnumerator DamTimer()
+    {
+        yield return new WaitForSeconds(5.0f);
+        playerDamage /= 3;
     }
 }

@@ -8,6 +8,10 @@ TagManager:
   - Retry
   - Enemy
   - Pickup
+  - Invincible
+  - BulletCD
+  - DamagePowerup
+  - SpeedUp
   layers:
   - Default
   - TransparentFX
