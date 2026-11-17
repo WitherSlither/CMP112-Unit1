@@ -18,7 +18,7 @@ public class playerController : MonoBehaviour
     public HealthBar hp;
     public experienceBar XP;
 
-    [SerializeField] private float maxPlayerHealth = 100.0f;
+    [SerializeField] private float maxPlayerHealth = 1000.0f;
     public float currentHealth;
     [SerializeField] private float playerLevel;
     [SerializeField] private float currentXp;
@@ -140,6 +140,10 @@ public class playerController : MonoBehaviour
             {
                 currentHealth -= 1.0f;
                 hp.SetHealth(currentHealth);
+            }
+            if (other.CompareTag("Boss"))
+            {
+                currentHealth -= 10f;
             }
         }
 

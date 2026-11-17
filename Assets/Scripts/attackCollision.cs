@@ -10,6 +10,11 @@ public class attackCollision : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (gameObject.CompareTag("Boss"))
+        {
+            orcHealth *= 10;
+            orcXpWorth *= 10;
+        }
         Pc = GameObject.FindGameObjectWithTag("Player").GetComponent<playerController>();
     }
 

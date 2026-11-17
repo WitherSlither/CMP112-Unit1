@@ -12,6 +12,7 @@ public class BoundsTest : MonoBehaviour
     Vector3 point = Vector3.zero;
     Vector3 powerupPoint = Vector3.zero;
     public GameObject Orc;
+    public GameObject BossOrc;
 
     public GameObject Invincible;
     public GameObject SpeedUp;
@@ -51,6 +52,10 @@ public class BoundsTest : MonoBehaviour
 
     IEnumerator Spawner()
     {
+        if (wave % 5 == 0)
+        {
+            Instantiate(BossOrc, point, Quaternion.identity);
+        }
         for (int spawned = 1; spawned < 50 * wave; spawned++)
         {
             

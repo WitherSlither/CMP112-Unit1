@@ -12,6 +12,7 @@ TagManager:
   - BulletCD
   - DamagePowerup
   - SpeedUp
+  - Boss
   layers:
   - Default
   - TransparentFX
