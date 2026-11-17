@@ -7533,7 +7533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b823074f1c470b341b0b64479cea3aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoundsTest
-  wave: 5
+  wave: 1
   Orc: {fileID: 8782407062937522860, guid: 09e72d883205fbd4f8a95d802396481c, type: 3}
   BossOrc: {fileID: 7438573489818854663, guid: 6e1e33d5fe9ecb644a3b7cf29c24f1e5, type: 3}
   Invincible: {fileID: 3651940240767774880, guid: d3d485fd06c7e0b46970a5bb68977a80, type: 3}
@@ -26457,7 +26457,7 @@ MonoBehaviour:
   WalkSpeed: 5.5
   RunningSpeed: 9
   playerDamage: 1
-  isInvincible: 1
+  isInvincible: 0
   JumpForce: 8
   gravity: 20
   LookSens: 0.2

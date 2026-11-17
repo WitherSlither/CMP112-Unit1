@@ -77,7 +77,7 @@ public class BoundsTest : MonoBehaviour
         while (Pc.currentHealth > 0)
         {
             PowerupRandomise();
-            int randomNum = Random.Range(0, 3);
+            int randomNum = Random.Range(0, 4);
             switch (randomNum)
             {
                 case 0: Powerup = Invincible;
