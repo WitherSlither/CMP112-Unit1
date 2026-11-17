@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
+    private AudioSource source;
+
+    public AudioClip attacksound;
+
     public GameObject attack;
     public float speed = 500.0f;
     private bool recentlyAttacked = false;
@@ -13,7 +17,7 @@ public class Attack : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,6 +25,7 @@ public class Attack : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            source.PlayOneShot(attacksound, 1.0f);
             spawn();
         }
     }
