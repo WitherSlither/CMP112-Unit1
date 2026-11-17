@@ -39,7 +39,9 @@ public class Attack : MonoBehaviour
         {
             GameObject attackClone = Instantiate(attack, new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z), transform.rotation) as GameObject;
             Rigidbody attackCloneRigidBody = attackClone.GetComponent<Rigidbody>();
+
             attackCloneRigidBody.AddForce(Pc.transform.forward * speed);
+
             if (attackPowerup == false)
             {
                 recentlyAttacked = true;
