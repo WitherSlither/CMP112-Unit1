@@ -12,6 +12,9 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class playerController : MonoBehaviour
 {
+    private AudioSource source;
+
+    public AudioClip pickupSound;
     public HealthBar hp;
     public experienceBar XP;
 
@@ -47,6 +50,7 @@ public class playerController : MonoBehaviour
 
     private void Start()
     {
+        source = GetComponent<AudioSource>();
         currentHealth = maxPlayerHealth;
         hp.SetMaxHealth(maxPlayerHealth);
 
@@ -148,6 +152,7 @@ public class playerController : MonoBehaviour
     {
         if (other.CompareTag("Invincible"))
         {
+            source.PlayOneShot(pickupSound, 1.0f);
             Destroy(other.gameObject);
             isInvincible = true;
             StartCoroutine(Invtimer());
@@ -156,6 +161,7 @@ public class playerController : MonoBehaviour
 
         if (other.CompareTag("DamagePowerup"))
         {
+            source.PlayOneShot(pickupSound, 1.0f);
             Destroy(other.gameObject);
             playerDamage *= 3;
             StartCoroutine(DamTimer());
