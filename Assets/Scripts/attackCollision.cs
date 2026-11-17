@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class attackCollision : MonoBehaviour
 {
-
-    [SerializeField] float orcHealth = 2.0f;
-    [SerializeField] float orcXpWorth = 5.0f;
+    private playerController Pc;
+    public double orcHealth = 2.0f;
+    public float orcXpWorth = 5.0f;
     public GameObject attackSphere;
     public playerController Player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Pc = GameObject.FindGameObjectWithTag("Player").GetComponent<playerController>();
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class attackCollision : MonoBehaviour
         if (orcHealth <= 0)
         {
             Destroy(gameObject);
-            Player.updateExp(orcXpWorth);
+            Pc.updateExp(orcXpWorth);
         }
     }
 
@@ -28,7 +28,13 @@ public class attackCollision : MonoBehaviour
         if (other.gameObject.CompareTag("Attack"))
         {
             Destroy(other.gameObject);
-            orcHealth -= Player.getDamage();
+            orcHealth -= Pc.playerDamage;
         }
+    }
+
+    public void  updateOrcHealthXp(int wave)
+    {
+        orcHealth = 4 * 1.1 * wave;
+        orcXpWorth = 5 * wave / 2 * 1.1f;
     }
 }

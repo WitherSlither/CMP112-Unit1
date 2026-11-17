@@ -13,11 +13,13 @@ public class Attack : MonoBehaviour
     private bool recentlyAttacked = false;
     [SerializeField] private float attackCooldown = 1.5f;
     private bool attackPowerup = false;
+    private playerController Pc;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         source = GetComponent<AudioSource>();
+        Pc = GameObject.FindGameObjectWithTag("Player").GetComponent<playerController>();
     }
 
     // Update is called once per frame
@@ -37,7 +39,7 @@ public class Attack : MonoBehaviour
         {
             GameObject attackClone = Instantiate(attack, new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z), transform.rotation) as GameObject;
             Rigidbody attackCloneRigidBody = attackClone.GetComponent<Rigidbody>();
-            attackCloneRigidBody.AddForce(Vector3.forward * speed);
+            attackCloneRigidBody.AddForce(Pc.transform.forward * speed);
             if (attackPowerup == false)
             {
                 recentlyAttacked = true;
@@ -58,7 +60,6 @@ public class Attack : MonoBehaviour
     {
         if (other.CompareTag("BulletCD"))
         {
-            Debug.Log("BCD");
             Destroy(other.gameObject);
             attackCooldown = 0.0f;
             StartCoroutine(timer());

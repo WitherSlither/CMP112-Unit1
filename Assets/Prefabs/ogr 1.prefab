@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 5949742519154318980}
   m_Layer: 0
   m_Name: ogr 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +156,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::attackCollision
   orcHealth: 2
+  orcXpWorth: 5
   attackSphere: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!65 &7144965964656019850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -190,7 +192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b538a2690c72324694961699bc621c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  player: {fileID: 0}
 --- !u!114 &212133639409248230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b538a2690c72324694961699bc621c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  player: {fileID: 0}
 --- !u!114 &1027917719860673439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,7 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b538a2690c72324694961699bc621c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  player: {fileID: 0}
 --- !u!195 &6472461947013371922
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -251,7 +250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b538a2690c72324694961699bc621c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  player: {fileID: 0}
 --- !u!1818360609 &5949742519154318980
 RotationConstraint:
   m_ObjectHideFlags: 0

@@ -4,12 +4,12 @@ using UnityEngine.AI;
 public class EnemyMovement : MonoBehaviour
 {
 
-
-    public Transform player;
+    private playerController Pc;
     private NavMeshAgent agent;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Pc = GameObject.FindGameObjectWithTag("Player").GetComponent<playerController>();
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -17,9 +17,9 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         
-        if (player != null)
+        if (Pc != null)
         {
-            agent.SetDestination(player.position);
+            agent.SetDestination(Pc.transform.position);
         }
     }
 }

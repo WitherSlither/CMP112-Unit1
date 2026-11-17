@@ -19,13 +19,13 @@ public class playerController : MonoBehaviour
     public experienceBar XP;
 
     [SerializeField] private float maxPlayerHealth = 100.0f;
-    [SerializeField] private float currentHealth;
+    public float currentHealth;
     [SerializeField] private float playerLevel;
     [SerializeField] private float currentXp;
     [SerializeField] private float NextLevelXp;
     [SerializeField] private float WalkSpeed = 5.5f;
     [SerializeField] private float RunningSpeed = 9.0f;
-    [SerializeField] private float playerDamage = 1.0f;
+    public float playerDamage = 1.0f;
 
     [SerializeField] private bool isInvincible = false;
 
@@ -48,7 +48,7 @@ public class playerController : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private float lookAngle = 0.0f;
 
-    private void Start()
+    private void Awake()
     {
         source = GetComponent<AudioSource>();
         currentHealth = maxPlayerHealth;
@@ -59,7 +59,7 @@ public class playerController : MonoBehaviour
 
         playerLevel = 1;
 
-        NextLevelXp = (playerLevel / 2) * 100;
+        NextLevelXp = (playerLevel / 2) * 200;
         XP.SetMaxExp(NextLevelXp);
 
 
@@ -166,6 +166,14 @@ public class playerController : MonoBehaviour
             playerDamage *= 3;
             StartCoroutine(DamTimer());
         }
+        if (other.CompareTag("SpeedUp"))
+        {
+            source.PlayOneShot(pickupSound, 1.0f);
+            Destroy(other.gameObject);
+            WalkSpeed *= 3;
+            RunningSpeed *= 3;
+            StartCoroutine(SpeedTimer());
+        }
     }
     public void updateExp(float EXP)
     {
@@ -178,7 +186,7 @@ public class playerController : MonoBehaviour
             RunningSpeed += 2.0f;
             JumpForce += 2.0f;
             playerDamage += 1;
-            NextLevelXp = (playerLevel / 2) * 100;
+            NextLevelXp = (playerLevel / 2) * 200;
             currentXp = 0;
             XP.setExp(currentXp);
             XP.SetMaxExp(NextLevelXp);
@@ -200,5 +208,11 @@ public class playerController : MonoBehaviour
     {
         yield return new WaitForSeconds(5.0f);
         playerDamage /= 3;
+    }
+    IEnumerator SpeedTimer()
+    {
+        yield return new WaitForSeconds(5.0f);
+        RunningSpeed /= 3;
+        WalkSpeed /= 3;
     }
 }
