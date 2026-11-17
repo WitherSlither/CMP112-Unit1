@@ -12,6 +12,8 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class playerController : MonoBehaviour
 {
+    public float lowPitchRange = 0.0f;
+    public float highPitchRange = 3.0f;
     private AudioSource source;
 
     public AudioClip pickupSound;
@@ -153,6 +155,8 @@ public class playerController : MonoBehaviour
         if (other.CompareTag("Invincible"))
         {
             source.PlayOneShot(pickupSound, 1.0f);
+            source.pitch = Random.Range(lowPitchRange, highPitchRange);
+
             Destroy(other.gameObject);
             isInvincible = true;
             StartCoroutine(Invtimer());
@@ -162,6 +166,7 @@ public class playerController : MonoBehaviour
         if (other.CompareTag("DamagePowerup"))
         {
             source.PlayOneShot(pickupSound, 1.0f);
+            source.pitch = Random.Range(lowPitchRange, highPitchRange);
             Destroy(other.gameObject);
             playerDamage *= 3;
             StartCoroutine(DamTimer());
