@@ -699,7 +699,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599528248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.85}
+  m_LocalPosition: {x: 0, y: 0, z: -0.8500016}
   m_LocalScale: {x: 0.2032, y: 0.7832, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -707,7 +707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.44317716, y: -0.44968474}
+  m_AnchoredPosition: {x: 0.7239734, y: -0.46523532}
   m_SizeDelta: {x: 5.48502, y: 2.382441}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599528250
@@ -1626,7 +1626,7 @@ Transform:
   m_GameObject: {fileID: 1467595849}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.56734, y: 2.79659, z: 100.49324}
+  m_LocalPosition: {x: 129.15112, y: 2.6594207, z: 100.49324}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1795,7 +1795,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570012102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.85}
+  m_LocalPosition: {x: 0, y: 0, z: -0.8500023}
   m_LocalScale: {x: 0.2032, y: 0.7832, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1803,7 +1803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.42816725, y: -0.6020795}
+  m_AnchoredPosition: {x: 0.72240126, y: -0.619103}
   m_SizeDelta: {x: 5.48502, y: 2.382441}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570012104
@@ -1963,7 +1963,7 @@ GameObject:
   - component: {fileID: 1609336509}
   - component: {fileID: 1609336508}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2152,7 +2152,7 @@ GameObject:
   - component: {fileID: 1925068070}
   - component: {fileID: 1925068069}
   m_Layer: 0
-  m_Name: Death
+  m_Name: Swag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2197,7 +2197,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PolyBonk
+  m_text: 'Team 39: POLYBONK
+
+    By: Dylan Yorkston & Gianluca Gardiner'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2224,8 +2226,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2
-  m_fontSizeBase: 2
+  m_fontSize: 1
+  m_fontSizeBase: 1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2354,6 +2356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3387cead2fc700e4fbff7f999d160c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  attacksound: {fileID: 0}
   attack: {fileID: 2516449317431122637, guid: 901475d14f404a04c8da4b519eb2c1e0, type: 3}
   speed: 500
   attackCooldown: 1.5
@@ -2417,6 +2420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8baa8030132130b428d06eb652fb8522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::playerController
+  pickupSound: {fileID: 0}
   hp: {fileID: 665688338}
   XP: {fileID: 216775159}
   maxPlayerHealth: 100
@@ -2427,6 +2431,7 @@ MonoBehaviour:
   WalkSpeed: 5.5
   RunningSpeed: 9
   playerDamage: 1
+  isInvincible: 0
   JumpForce: 8
   gravity: 20
   LookSens: 0.2
