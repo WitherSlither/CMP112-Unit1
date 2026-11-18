@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
-using UnityEditor.Rendering;
+
 public class BoundsTest : MonoBehaviour
 {
     Collider col;
